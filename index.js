@@ -6,7 +6,7 @@ const app = express();
 app.set('view engine', 'pug');
 app.set('views', './views');
 // Definir Puerto
-app.use('/', usuariosRoutes);
+app.use('/auth', usuariosRoutes);
 const port = 3000;
 
 // Habilitar pug

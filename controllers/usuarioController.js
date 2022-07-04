@@ -1,13 +1,16 @@
-const formularioLogin = (res,req)=>{
+const formularioLogin = (req,res)=>{
     res.render('auth/login',{
-       
+
     })
 }
-const formularioRegustri = (res,req)=>{
+   
+const formularioRegistro=(req,res)=>{
     res.render('auth/registro',{
-        
+
     })
 }
+ 
 export {
-    formularioLogin,
+    formularioLogin, 
+    formularioRegistro,
 }

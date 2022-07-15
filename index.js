@@ -11,6 +11,10 @@ const port = 3000;
 
 // Habilitar pug
 
+// carpeta pulica 
+
+app.use(express.static('pullic'));
+
 
 app.listen(port,()=>{
     console.log(`El servidor esta funcionando en el puerto ${port}`)

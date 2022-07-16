@@ -13,7 +13,7 @@ const port = 3000;
 
 // carpeta pulica 
 
-app.use(express.static('pullic'));
+app.use(express.static('public'));
 
 
 app.listen(port,()=>{

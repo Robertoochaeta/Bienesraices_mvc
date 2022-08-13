@@ -561,6 +561,9 @@ video {
 .block {
   display: block;
 }
+.flex {
+  display: flex;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -569,6 +572,15 @@ video {
 }
 .max-w-md {
   max-width: 28rem;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-items-end {
+  justify-items: end;
 }
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -635,6 +647,10 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 .font-extrabold {
   font-weight: 800;
